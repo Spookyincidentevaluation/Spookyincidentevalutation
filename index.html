@@ -141,12 +141,12 @@
             if (containsKeyword(incident, severeHarmKeywords)) {
                 return {
                     response: "Severe harm detected.",
-                    punishment: "Severe punishment recommended! You must face the consequences."
+                    punishment: "Severe punishment recommended! "
                 };
             } else if (containsKeyword(incident, moderateHarmKeywords)) {
                 return {
                     response: "Moderate harm detected.",
-                    punishment: "Moderate punishment required. You should apologize."
+                    punishment: "Moderate punishment required. "
                 };
             } else if (containsKeyword(incident, minorOffenseKeywords)) {
                 return {
